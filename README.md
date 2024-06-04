@@ -10,26 +10,31 @@ git clone https://github.com/nicolasAguilar180193/kudos-test.git
 
 ```
 
-2. Instalar dependencias
+2. Ir a la raiz del proyecto
+```bash
+cd kudos-test
+```
+
+3. Instalar dependencias
 
 ```bash
 composer install
 ```
 
-3. Crear .env
+4. Crear .env
 
 ```bash
 cp .env.example .env
 
 ```
 
-4. Ejecutar migraciones
+5. Ejecutar migraciones
 
 ```bash
 php artisan migrate
 ```
 
-5. Ejecutar comando
+6. Ejecutar comando
 
 ```bash
 php artisan vtex:search
